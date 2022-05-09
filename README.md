@@ -14,6 +14,13 @@ $ pip install -r requirements.txt
 
 ## Usage
 
+Perform initial migrations:
+
+```bash
+$ python manage.py makemigrations
+$ python manage.py migrate
+```
+
 Run dev server with the following command:
 
 ```bash
