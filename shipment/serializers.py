@@ -11,5 +11,5 @@ class ShipmentSerializer(serializers.ModelSerializer):
             "departure_dt",
             "cargo_volume",
             "arrival_point",
-            "departure_point"
+            "departure_point",
         ]
